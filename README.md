@@ -8,5 +8,6 @@
 - Modules
 - Built-in Basics Modules
 - Sync Async
+- HTTP
 
 2. Express Tutorial
