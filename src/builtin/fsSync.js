@@ -13,5 +13,6 @@ readFile('./src/builtin/content/sub/logs.txt', 'utf-8', (err, result) => {
 
 writeFileSync(
     './src/builtin/content/sub/result.txt',
-    `result from logs`
+    `result from logs`,
+    { flag: 'a'}
 )

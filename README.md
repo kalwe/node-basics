@@ -6,5 +6,7 @@
 
 - Globals
 - Modules
+- Built-in Basics Modules
+- Sync Async
 
 2. Express Tutorial

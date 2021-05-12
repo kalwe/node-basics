@@ -1,1 +1,1 @@
-result from logs
+results from logs
