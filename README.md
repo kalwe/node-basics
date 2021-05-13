@@ -11,5 +11,6 @@
 - HTTP
 - Event Loop
 - Promise
+- Event Emitter
 
 2. Express Tutorial
