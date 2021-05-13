@@ -1,4 +1,8 @@
-const { readFile } = require("fs");
+// const { readFile } = require("fs");
+const { readFile } = require("fs").promises;
+const util = require("util");
+
+const readFilePromise = util.promisify(readFile);
 
 const getLog = (path) => {
   return new Promise((resolve, reject) => {
@@ -18,7 +22,12 @@ const getLog = (path) => {
 
 const start = async () => {
   try {
-    const logs = await getLog("./src/builtin/content/sub/logs.txt");
+    // const logs = await getLog("./src/builtin/content/sub/logs.txt");
+    // const logs = await readFilePromise(
+    //   "./src/builtin/content/sub/logs.txt",
+    //   "utf8"
+    // );
+    const logs = await readFile("./src/builtin/content/sub/logs.txt", "utf8");
     console.log(logs);
   } catch (error) {
     console.log(error);
