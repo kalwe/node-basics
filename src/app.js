@@ -1,3 +1,5 @@
-const server = require('./server')
+const server = require("./server");
 
-server.start()
+const PORT = 3030;
+
+server.start(PORT);
