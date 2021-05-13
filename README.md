@@ -10,5 +10,6 @@
 - Sync Async
 - HTTP
 - Event Loop
+- Promise
 
 2. Express Tutorial
