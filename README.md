@@ -9,5 +9,6 @@
 - Built-in Basics Modules
 - Sync Async
 - HTTP
+- Event Loop
 
 2. Express Tutorial

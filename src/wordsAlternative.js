@@ -1,7 +1,7 @@
-module.exports.words = ['module', 'ok']
+module.exports.words = ["module", "ok"];
 
 const prey = {
-    name: 'king'
-}
+  name: "king",
+};
 
-module.exports.whoToPrey = prey
+module.exports.whoToPrey = prey;
