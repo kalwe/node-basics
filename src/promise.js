@@ -12,6 +12,17 @@ const getLog = (path) => {
   });
 };
 
-getLog("./src/builtin/content/sub/logs.txt")
-  .then((result) => console.log(result))
-  .catch((err) => console.log(err));
+// getLog("./src/builtin/content/sub/logs.txt")
+//   .then((result) => console.log(result))
+//   .catch((err) => console.log(err));
+
+const start = async () => {
+  try {
+    const logs = await getLog("./src/builtin/content/sub/logs.txt");
+    console.log(logs);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+start();
