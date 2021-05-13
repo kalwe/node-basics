@@ -12,5 +12,6 @@
 - Event Loop
 - Promise
 - Event Emitter
+- Streams
 
 2. Express Tutorial
